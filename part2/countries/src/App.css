@@ -1,0 +1,41 @@
+body {
+  background-color: #fafafa;
+}
+.app_flag {
+  height: 100px;
+  margin: 0 auto;
+}
+.app_flag_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  height: 100px;
+  background-size: cover;
+}
+.app_container {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  min-height: 500px;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+}
+.app_country_list {
+  text-align: left;
+  width: 400px;
+  margin: 20px auto;
+}
+.app_country_list li {
+  padding: 20px;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  justify-content: center;
+  align-items: center;
+}
+.app_country_info {
+  margin: 20px auto;
+}
